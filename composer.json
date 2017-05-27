@@ -1,0 +1,21 @@
+{
+  "name": "igordepaula/oop",
+  "description": "teach OOP PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Igor C de Paula",
+      "email": "igordepaula@adminweb.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App",
+      "AppTest\\": "tests/AppTest"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "5"
+  }
+}
