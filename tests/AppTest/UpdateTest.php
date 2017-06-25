@@ -30,7 +30,7 @@ class UpdateTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider provider
      */
-    public function testDeleteSql($expected, $table, $data)
+    public function testUpdateSql($expected, $table, $data)
     {
 
         $this->obj->setData(
