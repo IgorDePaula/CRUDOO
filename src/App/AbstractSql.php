@@ -17,7 +17,7 @@ abstract class AbstractSql
 
     private $table = '';
 
-    private $fields = [];
+    protected $fields = [];
 
     /**
      * Retorna a SQL
